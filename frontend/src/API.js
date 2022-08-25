@@ -7,9 +7,8 @@ if (
 ) {
   baseURL = process.env.REACT_APP_API_BASE_URL;
 } else {
-baseURL = "https://arroundtheworld-backend.herokuapp.com";
+  baseURL = "https://around-the-world-backend1.herokuapp.com/";
 }
-
 
 const api = axios.create({
   baseURL: baseURL,
